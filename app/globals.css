@@ -79,3 +79,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.border_class{
+  transition: 0.2s ease;
+}
+.border_class:hover{
+  cursor: pointer;
+  border-left-width: 4px;
+  border-bottom-width: 2px;
+  border-color: rgb(81, 81, 180);
+}

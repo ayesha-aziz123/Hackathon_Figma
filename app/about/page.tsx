@@ -1,17 +1,16 @@
-// import About from '@/components/About'
-// import AboutClientSay from '@/components/AboutClientSay'
-// import AboutFeatures from '@/components/AboutFeatures'
-// import Heading from '@/components/Heading'
-// import React from 'react'
+import About from "@/components/About"
+import AboutClientSay from "@/components/AboutClient"
+import Feature2 from "@/components/Feature2"
+import Heading from "@/components/Heading"
+
 
 const AboutPage = () => {
     return (
         <main>
-            <h1>jwsj</h1>
-            {/* <Heading heading='About Us' />
+            <Heading heading={"About Us"} path1="Home" path2="Pages" path3="About US"  />
             <About />
-            <AboutFeatures />
-            <AboutClientSay /> */}
+            <Feature2 heading={"Our Features"} className1="max-w-[1920px] mx-auto my-20 lg:mx-40  px-4" />
+            <AboutClientSay />
         </main>
     )
 }
