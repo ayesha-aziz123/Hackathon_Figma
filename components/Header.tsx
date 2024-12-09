@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsCart2 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
@@ -55,13 +56,13 @@ function Header() {
         </div>
 
         <div className="flex items-center gap-x-3">
-          Login <FiUser className="size-[17px] md:gap-x-2" />
+          Login <Link href={"/myaccount"}><FiUser className="size-[17px] md:gap-x-2" /></Link>
         </div>
         <div className="flex items-center md:gap-x-2">
           Wishlist <FaRegHeart   className="size-[17px]" />
         </div>
         <div className="flex gap-x-1 items-center">
-          <BsCart2 className="size-[20px] " />
+        <Link href={"/shoppingCart"}> <BsCart2 className="size-[20px] " /></Link>
         </div>
       </div>
     </div>
