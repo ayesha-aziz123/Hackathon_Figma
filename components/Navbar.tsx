@@ -90,7 +90,7 @@ function Navbar() {
               <SheetContent >
                 <div className="mt-28">
                   <div className="flex justify-center gap-5 mb-10">
-                    <Link href={"/shopingCart"}>
+                    <Link href={"/shoppingCart"}>
                       <BsCart2 size={20} className=" w-10" />
                     </Link>
 
