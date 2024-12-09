@@ -47,7 +47,7 @@ function TrendingProduct() {
               <p className="text-[#FB2E86] underline py-2">Shop Now</p>
             </div>
             <Image
-              src={"/trendingP/p1.png"}
+              src={"/trendingP/P1.png"}
               width={2000}
               height={2000}
               alt={"chair"}
