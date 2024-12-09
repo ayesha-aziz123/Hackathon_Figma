@@ -18,7 +18,7 @@ const TopCategory = () => {
             >
               <div className="border_class w-[230px]  lg:w-[247px] p-10 lg:p-3   md:h-[269.96px] mx-auto rounded-[50%] bg-[#31208A0D]">
                 <Image
-                  src={`/TopCAtegory/${img}.png`}
+                  src={`/TopCategory/${img}.png`}
                   width={2000}
                   height={2000}
                   alt={"chair"}
