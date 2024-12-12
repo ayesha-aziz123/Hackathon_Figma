@@ -26,9 +26,9 @@ function LatestProduct() {
             className="w-full sm:w-[270px] mx-auto px-10 md:px-0 lg:w-[360px] flex flex-col justify-center items-center"
           >
             {/* Image Section */}
-            <div className="w-full h-[200px] sm:h-[220px] lg:h-[270px] bg-[#F7F7F7] flex justify-center items-center relative">
-              {index === 1 && (
-                <div className="absolute top-4 left-4 bg-gray-200 rounded-full p-2">
+            <div className="w-full group h-[200px] sm:h-[220px] lg:h-[270px] bg-[#F7F7F7] flex justify-center items-center relative">
+              
+                <div className="opacity-0 group-hover:opacity-100 absolute top-4 left-4 bg-gray-200 rounded-full p-2">
                   <Image
                     src={"/features/sale.png"}
                     alt="sale"
@@ -37,7 +37,11 @@ function LatestProduct() {
                     className="object-contain"
                   />
                 </div>
-              )}
+                <div className="flex flex-col justify-start opacity-0 group-hover:opacity-100 gap-4 py-2 ">
+                  <BsCart2 size={20} className="text-[#2F1AC4] cursor-pointer" />
+                  <FaRegHeart size={20} className="text-[#FB2448] cursor-pointer" />
+                  <FaSearchPlus size={20} className="text-[#4A8BA0] cursor-pointer" />
+                </div>
               <Image
                 src={`/features/chair${index + 5}.png`}
                 width={2000}
@@ -45,10 +49,11 @@ function LatestProduct() {
                 alt={`chair-${index + 1}`}
                 className="w-[150px] sm:w-[180px] lg:w-[220px] object-contain"
               />
+              
             </div>
 
             {/* Product Details */}
-            <div className="flex flex-col items-center text-center py-4">
+            <div className="flex  flex-col items-center text-center py-4">
               <h3 className="text-[#151875] text-[16px] sm:text-[18px] font-medium">
                 Comfort Handy Craft
               </h3>
@@ -56,13 +61,7 @@ function LatestProduct() {
                 <p className="text-[#151875]">$42.00</p>
                 <p className="text-[#FB2448] line-through">$65.00</p>
               </div>
-              {index === 1 && (
-                <div className="flex gap-4 py-2">
-                  <BsCart2 size={20} className="text-[#2F1AC4] cursor-pointer" />
-                  <FaRegHeart size={20} className="text-[#FB2448] cursor-pointer" />
-                  <FaSearchPlus size={20} className="text-[#4A8BA0] cursor-pointer" />
-                </div>
-              )}
+               
             </div>
           </div>
         ))}

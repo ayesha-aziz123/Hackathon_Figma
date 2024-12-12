@@ -1,20 +1,19 @@
-import Logos from "@/components/Logos"
-import Products from "@/components/Products"
-import ProductsDescriptions from "@/components/ProductsDescriptions"
-import RelatedProducts from "@/components/RelatedProducts"
-import Heading from "@/components/Heading"
+
+import Heading from '@/components/Heading'
+import Logos from '@/components/Logos'
+import Shop from '@/components/Shop'
 
 
-const ProductsPage = () => {
+import React from 'react'
+
+const ShopPage = () => {
     return (
         <main>
-            <Heading heading='Product Details' />
-            <Products />
-            <ProductsDescriptions />
-            <RelatedProducts />
-            <Logos />
+            <Heading heading='Shop Grid Default' path1='Home' path2='Pages' path3='Shop Grid Default'/>
+            <Shop />
+            <Logos/>
         </main>
     )
 }
 
-export default ProductsPage
+export default ShopPage

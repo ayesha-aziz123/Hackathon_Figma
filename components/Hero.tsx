@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="  bg-[#F2F0FF] flex flex-col lg:flex-row">
       {/* Left Section */}
-      <div className="xl:absolute md:hidden  w-full md:w-[387px] 2xl:block flex   flex-nowrap justify-center ">
+      <div className=" md:hidden  w-full md:w-[387px] xl:block flex   flex-nowrap justify-center ">
         <Image
           src={"/home/lamp.png"}
           alt="lamp"
