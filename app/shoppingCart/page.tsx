@@ -75,7 +75,7 @@ const ShoppingCart: React.FC = () => {
       </header>
       <div className="flex flex-col lg:flex-row justify-center py-12 lg:py-24 gap-6 px-4 sm:px-8">
         {/* Cart Table */}
-        <div className="  p-4 sm:p-6 rounded-md shadow-md w-full lg:w-3/5 ">
+        <div className="  p-4 sm:p-6 rounded-md shadow-md w-full lg:w-3/5 overflow-scroll ">
           <table className="w-full text-sm md:text-base border-collapse">
             <thead>
               <tr className="bg-gray-100 text-left">
