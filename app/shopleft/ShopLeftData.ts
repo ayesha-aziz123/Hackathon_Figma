@@ -16,7 +16,7 @@ const shopLeftData = [
         des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     },
     {
-        pic: "/left4.png",
+        pic: "/left3.png",
         title: "Nibh varius",
         offerPrice: "$26.00",
         regularPrice: "$52.00",
@@ -24,7 +24,7 @@ const shopLeftData = [
         des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     },
     {
-        pic: "/left5.png",
+        pic: "/left4.png",
         title: "Mauris quis",
         offerPrice: "$26.00",
         regularPrice: "$52.00",
@@ -32,7 +32,7 @@ const shopLeftData = [
         des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     },
     {
-        pic: "/left6.png",
+        pic: "/left5.png",
         title: "Morbi sagittis",
         offerPrice: "$26.00",
         regularPrice: "$52.00",
@@ -40,7 +40,7 @@ const shopLeftData = [
         des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     },
     {
-        pic: "/left7.png",
+        pic: "/left6.png",
         title: "Ultricies venenatis",
         offerPrice: "$26.00",
         regularPrice: "$52.00",
@@ -48,7 +48,7 @@ const shopLeftData = [
         des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     },
     {
-        pic: "/left8.png",
+        pic: "/left7.png",
         title: "Scelerisque dignissim",
         offerPrice: "$26.00",
         regularPrice: "$52.00",
