@@ -40,12 +40,12 @@ function Feature2({ heading, className1 }: Props) {
       </h1>
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-48">
+      <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-8 lg:gap-40">
         {data.map((item, i) => {
           return (
             <div
               key={i}
-              className="shadow-lg shadow-[#dcd9d9] border-b-[3px] border-b-transparent hover:border-b-[3px] hover:border-yellow-600  text-center flex justify-center items-center gap-y-8 flex-col h-[320px] w-full sm:w-[270px] mx-auto"
+              className="shadow-lg shadow-[#dcd9d9] border-b-[3px] border-b-transparent hover:border-b-[3px] hover:border-yellow-600  text-center flex justify-center items-center gap-y-8 flex-col h-[320px] w-full md:w-[270px] mx-auto"
             >
               <div>
                 <Image

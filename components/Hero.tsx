@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <div className="  bg-[#F2F0FF] flex flex-col lg:flex-row">
+    <div className="max-w-[1920px] mx-auto  bg-[#F2F0FF] flex flex-col lg:flex-row">
       {/* Left Section */}
       <div className=" md:hidden  w-full md:w-[387px] xl:block flex   flex-nowrap justify-center ">
         <Image
@@ -35,7 +35,7 @@ function Hero() {
         </div>
 
         {/* Image Content */}
-        <div className="w-full md:w-[706px]  mt-6 md:mt-0 flex justify-center">
+        <div className="w-full md:max-w-[706px]  mt-6 md:mt-0 flex justify-center">
           <Image
             className="w-[300px] md:w-[629px]"
             src={"/home/sofa-header.png"}

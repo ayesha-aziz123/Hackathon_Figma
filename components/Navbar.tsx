@@ -44,9 +44,14 @@ function Navbar() {
                 <Link href={"/about"}>About</Link>
               </DropdownMenuItem>
 
-
               <DropdownMenuItem>
                 <Link href={"/demo"}>Demo</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/shopleft"}>Shop Left Sidebar</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={"/faq"}>FAQ</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -124,7 +129,6 @@ function Navbar() {
                           About
                         </Link>
                       </DropdownMenuItem>
-
 
                       <DropdownMenuItem>
                         <Link className="hover:text-pink-600" href={"/demo"}>

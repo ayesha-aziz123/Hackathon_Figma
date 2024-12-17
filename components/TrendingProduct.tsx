@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TrendingProduct() {
   return (
-    <div className="max-w-[1920px] my-20 px-5 lg:px-10 xl:mx-48">
+    <div className="max-w-[1920px] my-20 px-5 mx-auto">
       {/* Title */}
       <h1 className="text-center text-[28px] sm:text-[32px] lg:text-[42px] font-[600] py-5 leading-[1.2] text-[#1A0B5B]">
         Trending Products

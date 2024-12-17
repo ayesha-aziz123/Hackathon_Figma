@@ -18,7 +18,7 @@ export default function Home() {
       <LatestProduct />
       <Feature2
         heading={"What Shopex Offer!"}
-        className1="max-w-[1920px] mx-auto my-20 lg:mx-44 xl:mx-28  px-4"
+        className1="max-w-[1920px] mx-auto py-20 lg:mx-32  px-5"
       />
       <UniqueFeature />
       <TrendingProduct />

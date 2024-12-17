@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Heading from "@/components/Heading";
+import Link from "next/link";
 
 const initialCartItems = [
   {
@@ -166,14 +167,14 @@ const ShoppingCart: React.FC = () => {
             <p className="text-sm py-4 text-gray-600">
               Shipping & taxes calculated at checkout.
             </p>
-            <button className="bg-[#FB2E86] text-white w-full h-12 rounded-md font-semibold">
-              Calculate Shipping
-            </button>
+            <Link href="/ordercompleted">
+              <button className="bg-[#FB2E86] text-white w-full h-12 rounded-md font-semibold">
+                Calculate Shipping
+              </button>
+            </Link>
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };
