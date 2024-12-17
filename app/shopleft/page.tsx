@@ -343,7 +343,7 @@ const ShopLeft = () => {
                     <div key={i} className="flex items-center gap-1">
                       <div>
                         <h4>
-                          <Image width={70} height={70} src={item.color} alt="" />
+                          <Image width={40} height={40} src={item.color} alt="" />
                         </h4>
                       </div>
 
