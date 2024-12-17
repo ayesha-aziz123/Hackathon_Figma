@@ -386,7 +386,7 @@ const ShopLeft = () => {
                       <h4 className="text-pink-600 line-through">
                         {item.regularPrice}
                       </h4>
-                      <Image width={200} height={200} src={item.review} alt="" />
+                      <Image width={50} height={50} src={item.review} alt="" />
                     </div>
                     <p className="mt-3 md:w-[70%] text-[#7E81A2]">{item.des}</p>
                     <div className="flex items-center gap-4 ">
