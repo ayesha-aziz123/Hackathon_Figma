@@ -265,7 +265,7 @@ const ShopLeft = () => {
                         className="bg-light_yellow text-yellow border-none"
                         type="checkbox"
                       />
-                      <Image width={200} height={200} src={item.pic} alt="" />
+                      <Image width={70} height={70} src={item.pic} alt="" />
                       <h5>{item.count}</h5>
                     </div>
                   </div>
@@ -343,7 +343,7 @@ const ShopLeft = () => {
                     <div key={i} className="flex items-center gap-1">
                       <div>
                         <h4>
-                          <Image width={200} height={200} src={item.color} alt="" />
+                          <Image width={70} height={70} src={item.color} alt="" />
                         </h4>
                       </div>
 
